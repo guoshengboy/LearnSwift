@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>初见Swift.xcscheme</key>
+		<key>基础部分.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8AF8E09A1EC193B70052D4C4</key>
+		<key>8AF8E0D41EC19FAD0052D4C4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8AF8E0AE1EC193B70052D4C4</key>
+		<key>8AF8E0E81EC19FAD0052D4C4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8AF8E0B91EC193B70052D4C4</key>
+		<key>8AF8E0F31EC19FAD0052D4C4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,15 +1,15 @@
 //
-//  __SwiftTests.swift
-//  初见SwiftTests
+//  ____Tests.swift
+//  基础部分Tests
 //
 //  Created by cgs on 2017/5/9.
 //  Copyright © 2017年 cgs. All rights reserved.
 //
 
 import XCTest
-@testable import __Swift
+@testable import ____
 
-class __SwiftTests: XCTestCase {
+class ____Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()

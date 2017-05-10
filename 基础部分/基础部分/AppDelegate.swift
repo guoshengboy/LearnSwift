@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  初见Swift
+//  基础部分
 //
 //  Created by cgs on 2017/5/9.
 //  Copyright © 2017年 cgs. All rights reserved.
