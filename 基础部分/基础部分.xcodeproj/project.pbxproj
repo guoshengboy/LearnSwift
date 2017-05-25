@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A171CB01ECD40070067D0E1 /* ErroeHandleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A171CAF1ECD40070067D0E1 /* ErroeHandleViewController.swift */; };
+		8A3C5ED71EC5A49E00CB5000 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3C5ED61EC5A49E00CB5000 /* PersonModel.swift */; };
+		8A937CE71EC94ED400FA0263 /* ManModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A937CE61EC94ED400FA0263 /* ManModel.swift */; };
+		8A937CEB1EC955F000FA0263 /* Enum&StructViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A937CEA1EC955F000FA0263 /* Enum&StructViewController.swift */; };
+		8A937CEF1EC98D3400FA0263 /* ProtocolAndExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A937CEE1EC98D3400FA0263 /* ProtocolAndExtensionViewController.swift */; };
 		8AF8E0D91EC19FAD0052D4C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8E0D81EC19FAD0052D4C4 /* AppDelegate.swift */; };
 		8AF8E0DB1EC19FAD0052D4C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF8E0DA1EC19FAD0052D4C4 /* ViewController.swift */; };
 		8AF8E0DE1EC19FAD0052D4C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF8E0DC1EC19FAD0052D4C4 /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A171CAF1ECD40070067D0E1 /* ErroeHandleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErroeHandleViewController.swift; sourceTree = "<group>"; };
+		8A3C5ED61EC5A49E00CB5000 /* PersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		8A937CE61EC94ED400FA0263 /* ManModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManModel.swift; sourceTree = "<group>"; };
+		8A937CEA1EC955F000FA0263 /* Enum&StructViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Enum&StructViewController.swift"; sourceTree = "<group>"; };
+		8A937CEE1EC98D3400FA0263 /* ProtocolAndExtensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolAndExtensionViewController.swift; sourceTree = "<group>"; };
 		8AF8E0D51EC19FAD0052D4C4 /* 基础部分.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "基础部分.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF8E0D81EC19FAD0052D4C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF8E0DA1EC19FAD0052D4C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +109,11 @@
 			children = (
 				8AF8E0D81EC19FAD0052D4C4 /* AppDelegate.swift */,
 				8AF8E0DA1EC19FAD0052D4C4 /* ViewController.swift */,
+				8A937CEA1EC955F000FA0263 /* Enum&StructViewController.swift */,
+				8A937CEE1EC98D3400FA0263 /* ProtocolAndExtensionViewController.swift */,
+				8A171CAF1ECD40070067D0E1 /* ErroeHandleViewController.swift */,
+				8A3C5ED61EC5A49E00CB5000 /* PersonModel.swift */,
+				8A937CE61EC94ED400FA0263 /* ManModel.swift */,
 				8AF8E0DC1EC19FAD0052D4C4 /* Main.storyboard */,
 				8AF8E0DF1EC19FAD0052D4C4 /* Assets.xcassets */,
 				8AF8E0E11EC19FAD0052D4C4 /* LaunchScreen.storyboard */,
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3C5ED71EC5A49E00CB5000 /* PersonModel.swift in Sources */,
 				8AF8E0DB1EC19FAD0052D4C4 /* ViewController.swift in Sources */,
+				8A937CE71EC94ED400FA0263 /* ManModel.swift in Sources */,
+				8A171CB01ECD40070067D0E1 /* ErroeHandleViewController.swift in Sources */,
 				8AF8E0D91EC19FAD0052D4C4 /* AppDelegate.swift in Sources */,
+				8A937CEF1EC98D3400FA0263 /* ProtocolAndExtensionViewController.swift in Sources */,
+				8A937CEB1EC955F000FA0263 /* Enum&StructViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +525,7 @@
 				8AF8E0FF1EC19FAD0052D4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AF8E1001EC19FAD0052D4C4 /* Build configuration list for PBXNativeTarget "基础部分Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				8AF8E1021EC19FAD0052D4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AF8E1031EC19FAD0052D4C4 /* Build configuration list for PBXNativeTarget "基础部分UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +543,7 @@
 				8AF8E1051EC19FAD0052D4C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
